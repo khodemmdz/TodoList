@@ -15,50 +15,6 @@ function responsiveMobile() {
             </div>
         </div>
         `
-    } else {
-        $.body.innerHTML = `
-        <!-- aside left -->
-        <aside>
-            <div class="shine">TodoManager</div>
-
-            <button id="ojfhrdvk" class="ClearAllTodo">Clear All</button>
-        </aside>
-
-        <!-- list Todos -->
-        <div class="todoAdd">
-            <h2>
-                <div class="hrleft"></div>
-
-                Todos
-            </h2>
-
-            <!-- card Todos -->
-            <div id="todoCards" class="todoCards">
-
-            </div>
-        </div>
-
-        <div class="hr"></div>
-
-        <!-- Form Add Todo -->
-        <div class="notes">
-
-            <div id="formAddTodo" class="formAddTodo">
-                <input maxlength="20" type="text" class="titleTodo" id="titleTodos" placeholder="... name note">
-                
-                <textarea name="note" class="cardNote" id="captionsTodo" placeholder="...TypedNote" maxlength="91"></textarea>
-                
-                <button id="addTodoBtn" class="addTodoBtn"></button>
-            </div>
-
-        </div>
-
-
-        <!-- script -->
-        <script src="js/script.js"></script>
-        <script src="js/addTodoBtn.js"></script>
-        <script src="js/responsive.js"></script>
-        `
     }
 }
 
