@@ -6,4 +6,4 @@
 
 ^_^ You can add your daily tasks with descriptions
 
-[Click to use](https://khodewmj.github.io/TodoList)
+[Click to use](https://mamadzorg.github.io/TodoList/)
